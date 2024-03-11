@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="Home" href="index.html">
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1 class="logo">FORESTTER</h1>
+            <ul class="nav-links">
+                <li class="active"><a href="#"></a>Home</li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <img src="icons8-menu-50.png" alt="" class="menu-btn">
+       </nav>   
+    <header>
+        <div class="header-content">
+            <h2>Explore the colorful world</h2>
+                <div class="line"></div>
+                    <h1>TAKE YOUR MOUNTAIN ADVENTURES</h1>
+        </div>
+    </header>
+
+    <!--events-->
+    <section class="events">
+        <div class="title">
+            <h1>The Thrilling Outdoors</h1>
+                <div class="line"></div>
+        </div>
+        <div class="cover">
+            <div class="box">
+                <img src="img13.jpg">
+                <h2>Bungee Jumping</h2><br>
+                
+                <p>Bungee jumping is an exhilarating adventure sport that involves a great height while attached to a long, elastic cord.</p><br>
+                <a href="visit1.html" class="ctn">Visit</a>
+            </div>
+            <div class="box">
+                <img src="img6.jpg">
+                <h2>Rock Climb</h2><br>
+                <p>Rock climbing is a challenging and exhilarating outdoor activity that involves or artificial climbing walls</p><br>
+                <a href="visit2.html" class="ctn">Visit</a>
+            </div>
+            <div class="box">
+                <img src="img14.jpg">
+                <h2>Sky Diving</h2><br>
+                <p>Skydiving is an exhilarating and gravity-defying adventure that involves jumping from an aircraft .  </p><br>
+                <a href="visit3.html" class="ctn">Visit</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+           <h1>Explore the world </h1>
+               <div class="line"></div>
+                   <p>We know there are a dozen different adventures value-minded travellers like you would like to explore which is why we will help you turn your bucket list into a 'better-than-I-dreamed' list.</p>
+   </section>
+
+
+
+   <section class="tours">
+    <div class="row">
+        <div class="col content-col">
+            <h1>Stay at Night</h1>
+                <div class="line"></div>
+                    <P>As the night deepens, the glow of the camfire becomes even more enhanting, casting a warm and inviting light on the surroundings. The crackling of the fire becomes a soothing soundtrack to the evening , everyone into a state of relaxation</P>
+                </div>
+        <div class="col image-col">
+            <div class="image-gallery">
+                <img src="image2.jpg"  alt="">
+                <img src="image3.jpg" alt="">
+                <img src="image4.jpg" alt="">
+                <img src="image5.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click',()=>{
+     navlinks.classList.toggle('mobile-menu')
+    })
+</script>
+
+<footer>
+    <div class="footer">
+        <div class="row">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+            
+    <div class="row">
+        <ul>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+    </div>
+            
+    <div class="row">
+        Copyright © 2023 - All rights reserved <br>
+        Adnan Shaikh | Rutika Nandurkar | Ashlesha Mahore | Suryakant Bawankule
+    </div>
+     </div>
+        
+</footer>
+
+</body>
+</html>
