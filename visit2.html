@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   }
+
+a{
+    text-decoration: none;
+ }
+ul {
+    list-style: none;
+    }
+
+     /*navbar*/
+     .navbar{
+        position: absolute;
+        top : 0;
+        left: 10PX;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 20px;
+        color: whitesmoke;
+        font-family: cursive;
+        text-transform: capital;
+        }
+
+    .nav-links {
+        display: flex;
+        align-items: center;    
+     }
+
+    .nav-links li {
+        margin: 0 30px;
+       
+    }
+
+    .nav-links li a{
+         color: #ffffff;
+     }
+     .active {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+     }
+     body , html {
+        overflow-x: hidden;
+    }
+
+    header{
+        width: 100vw;
+        height: 70vh;
+        background-image:url('image1.jpg') ;
+        background-position: bottom;
+        background-size:cover;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .header-content{
+        margin-bottom: 150;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+
+    .header-content h2{
+        font-size: 4vmin;
+        color: #ffffff;
+    }
+    .line{
+        width: 150px;
+        height: 4px;
+        background:cyan;
+        margin: 10px auto;
+        border-radius: 5px;
+    }
+    .header-content h1{
+        font-size: 7vmin;
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+
+    .menu-btn {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        width: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    section {
+        width: 80%;
+        margin: 80px auto;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 4vmin;
+        color: rgb(73,73 ,126);
+    }
+
+
+    .heading{
+        width: 100%;
+        padding: 78px 0px;
+        
+
+    }
+
+    .heading img{
+        height: auto;
+        width: 420px;
+        border-radius: 2%;
+    }
+
+    .heading-text{
+        width: 550px;
+    }
+
+    .main{
+        width: 1130px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .heading-text h1{
+        color: black;
+        font-size: 80px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    }
+
+
+    .heading-text p{
+        color: rgba(52, 51, 52, 0.8);
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 18px;
+        margin-bottom: 45px;
+    }
+
+    button{
+        background: cyan;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding : 13px 30px;
+        border-radius: 30px;
+        transition: .4s;
+    }
+
+    button:hover{
+        background: transparent;
+        border: 2px solid rgb(0, 232, 249);
+        cursor: pointer;
+
+    }
+    .col-12{
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+    }
+
+
+    /*footer*/
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer{
+    background:#000000;
+    padding:10px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+}
+        
+.footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+}
+.footer .row a{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    transition:0.5s;
+}
+        
+.footer .row a:hover{
+    color:#fff;
+}
+        
+.footer .row ul{
+    width:100%;
+}
+        
+.footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+}
+        
+.footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+}
+@media (max-width:720px){
+    .footer{
+        text-align:left;
+        padding:5%;
+    }
+    .footer .row ul li{
+        display:block;
+        margin:10px 0px;
+        text-align:left;
+    }
+    .footer .row a i{
+        margin:0% 3%;
+    }
+    }
+    </style>
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1 class="logo">FORESTTER</h1>
+            <ul class="nav-links">
+                <li class="active"><a href="#"></a>Home</li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+
+        <img src="icons8-menu-50.png" alt="" class="menu-btn">
+       
+    </nav>  
+    <header>
+        <div class="header-content">
+            <h2>Rock Climb</h2>
+                <div class="line"></div>
+                    <h1>Ascent to a Thrilling Affair</h1>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Madhugiri</h1>
+                <div class="line"></div>
+        </div>
+
+
+        <section class="heading">
+            <div class="main">
+                <img src="img 16.jpg" alt="">
+                <div class="heading-text">
+                    
+                    <p>The best part about rock climbing in Madhugiri is the various rock formations. The place offers rock climbers the chance to climb different types of rocks.From amateurs to professionals, you can see all types of rock climbers visiting Madhugiri. There is a beautiful old temple around the place that is well worth exploring.
+                        </p>
+                        <button type="button" onclick="location.href='pay.html'"> Buy Now</button>
+                </div>
+                
+            </div>
+        </section>
+        <div class="col-12">
+            <p>
+                <b>Weather :</b>
+                <span id="currentWeather" class="weather-current"> 25`C</span>
+
+            </p>
+        </div>
+        <div class="col-12">
+            <p><b>Tags :</b>
+            "Adventure Sport"</p>
+        </div>
+        <div class="col-12">
+            <p><b>Timings :</b>
+            "Time slots : 9:30 AM , 11:00AM , 1:00 PM "</p>
+        </div>
+        <div class="col-12">
+            <p><b>Time Required :</b>
+            "1day"</p>
+        </div>
+        <div class="col-12">
+            <p><b>Entry Fee :</b>
+            "Entry Fee - INR 1000, Rock Climb - INR 3550"</p>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+            </div>
+                
+        <div class="row">
+            <ul>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+                
+        <div class="row">
+            Copyright © 2023 - All rights reserved <br>
+            Adnan Shaikh | Rutika Nandurkar | Ashlesha Mahore | Suryakant Bawankule
+        </div>
+         </div>
+            
+    </footer>
+</body>
+</html>
